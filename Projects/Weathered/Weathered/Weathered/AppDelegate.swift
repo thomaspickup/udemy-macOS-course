@@ -10,11 +10,14 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
+    // Variables
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    
+    // Functions
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        // Set's up status item button
+        statusItem.button?.title = "--°c"
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
