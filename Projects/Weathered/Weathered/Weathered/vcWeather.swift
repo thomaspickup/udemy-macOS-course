@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  vcWeather.swift
 //  Weathered
 //
 //  Created by Thomas Pickup on 15/11/2017.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class vcWeather: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
