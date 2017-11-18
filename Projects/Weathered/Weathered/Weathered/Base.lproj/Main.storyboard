@@ -726,7 +726,7 @@
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g8Q-0a-mvn">
                                                 <rect key="frame" x="-2" y="33" width="141" height="105"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="100°" id="SlE-g1-Xee">
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="100°" id="SlE-g1-Xee">
                                                     <font key="font" size="64" name="AvenirNext-Regular"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -795,7 +795,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="lblText" destination="2D4-0j-Rhc" id="NX3-h3-JVk"/>
+                        <outlet property="lblDate" destination="2D4-0j-Rhc" id="NX3-h3-JVk"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

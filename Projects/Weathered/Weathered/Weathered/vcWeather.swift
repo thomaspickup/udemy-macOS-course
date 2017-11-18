@@ -12,7 +12,7 @@ class vcWeather: NSViewController {
     // Variables
     
     // Outlets
-    @IBOutlet weak var lblText: NSTextFieldCell!
+    @IBOutlet weak var lblDate: NSTextFieldCell!
     
     // View Functions
     override func viewDidLoad() {
@@ -28,7 +28,9 @@ class vcWeather: NSViewController {
         let calendarDay = calendar.component(.day, from: date)
         let calendarMonth = yearToString(year: calendar.component(.month, from: date))
         let calendarYear = calendar.component(.year, from: date)
-        lblText.title = String(calendarDay) + " " + calendarMonth + " " + String(calendarYear)
+        
+        // Sets Labels
+        lblDate.title = String(calendarDay) + " " + calendarMonth + " " + String(calendarYear)
     }
     override var representedObject: Any? {
         didSet {
