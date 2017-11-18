@@ -30,7 +30,7 @@ class vcWeather: NSViewController {
         let calendarYear = calendar.component(.year, from: date)
         
         // Sets Labels
-        lblDate.title = String(calendarDay) + " " + calendarMonth + " " + String(calendarYear)
+        lblDate.title = "Today " +  String(calendarDay) + " " + calendarMonth + " " + String(calendarYear)
     }
     override var representedObject: Any? {
         didSet {

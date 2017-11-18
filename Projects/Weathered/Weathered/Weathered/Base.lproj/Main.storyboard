@@ -717,30 +717,35 @@
                                         <rect key="frame" x="0.0" y="0.0" width="170" height="171"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QLC-Uf-ebs">
-                                                <rect key="frame" x="-2" y="146" width="89" height="25"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Todays Date" id="2D4-0j-Rhc">
+                                                <rect key="frame" x="-2" y="146" width="174" height="25"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Todays Date" id="2D4-0j-Rhc">
                                                     <font key="font" size="15" name="AvenirNext-Regular"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g8Q-0a-mvn">
-                                                <rect key="frame" x="-2" y="33" width="141" height="105"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="100°" id="SlE-g1-Xee">
+                                                <rect key="frame" x="-2" y="33" width="174" height="105"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="100°" id="SlE-g1-Xee">
                                                     <font key="font" size="64" name="AvenirNext-Regular"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6f5-bY-3Tn">
-                                                <rect key="frame" x="-2" y="0.0" width="50" height="25"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Belfast" id="pdM-lg-xsj">
+                                                <rect key="frame" x="-2" y="0.0" width="174" height="25"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Belfast" id="pdM-lg-xsj">
                                                     <font key="font" size="15" name="AvenirNext-Regular"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="6f5-bY-3Tn" secondAttribute="trailing" id="AlY-f5-qQA"/>
+                                            <constraint firstAttribute="trailing" secondItem="QLC-Uf-ebs" secondAttribute="trailing" id="SDu-xP-GFN"/>
+                                            <constraint firstAttribute="trailing" secondItem="g8Q-0a-mvn" secondAttribute="trailing" id="qGD-1G-fA2"/>
+                                        </constraints>
                                         <visibilityPriorities>
                                             <integer value="1000"/>
                                             <integer value="1000"/>
